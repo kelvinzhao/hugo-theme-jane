@@ -49,6 +49,9 @@
       {{ .Content }}
     </div>
 
+    <!-- Share -->
+    {{ partial "post/share.html" . }}
+
     <!-- Copyright -->
     {{ partial "post/copyright.html" . }}
 
@@ -66,8 +69,9 @@
           {{ end }}
         </div>
       {{- end }}
-
+      
       <!-- Post Pagination -->
+      <div>
       <nav class="post-nav">
         {{ with .NextInSection }}
           <a class="prev" href="{{ .RelPermalink }}">
@@ -90,6 +94,7 @@
           </a>
         {{- end }}
       </nav>
+      </div>
     </footer>
   </article>
 
