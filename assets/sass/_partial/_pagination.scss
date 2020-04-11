@@ -7,6 +7,10 @@
   text-align: center;
   @include clearfix;
 
+Ul{
+padding-inline-start: 0px;
+}
+
   li {
     display: inline-block;
 
@@ -18,7 +22,7 @@
       color: #222;
       float: left;
       line-height: 1.42857143;
-      padding: 6px 12px;
+      padding:6px 12px;
       position: relative;
       text-decoration: none;
       margin-bottom: 0.2em;

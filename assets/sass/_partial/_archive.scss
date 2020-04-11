@@ -5,9 +5,9 @@
 .archive {
   // margin: $archive-margin;
   // max-width: $archive-max-width;
-  margin: 0 5em 3em;
+  margin: 0 5em 0em;
   background-color: white;
-  padding: 1em 5em 5em 5em;
+  padding: 0em 0em 0em 0em;
 
   .archive-title {
     font-family: $global-serif-font-family;
@@ -23,7 +23,7 @@
       display: inline-block;
       font-weight: 400;
       font-size: $archive-name-font-size;
-      line-height: $archive-name-font-size + 2px;
+      line-height: $archive-name-font-size + 0px;
     }
 
     .archive-post-counter {
@@ -36,7 +36,7 @@
     font-family: $global-serif-font-family;
   
     .archive-year {
-      margin: 2em 0 0;
+      margin: 1em 0 0;
       font-weight: 400;
       font-size: $collection-title-font-size;
       line-height: $collection-title-font-size + 2px;
@@ -45,7 +45,7 @@
 
   .archive-post {
     padding: $archive-post-padding;
-    border-bottom: $archive-post-border;
+    // Border-left: $archive-post-border-left;
     font-size: 1.1em;
     display: table;
     width: 100%;
@@ -71,7 +71,7 @@
     }
 
     &:hover {
-      // border-left: $archive-post-hover-border-left;
+      border-left: $archive-post-hover-border-left;
       transition: $archive-post-hover-transition;
       transform: $archive-post-hover-transform;
 

@@ -1,8 +1,8 @@
 .post-header {
-  margin-bottom: 20px;
+  margin-bottom: 0px;
   text-align: center;
-  padding-bottom: 10px;
-  border-bottom: 2px LightGrey solid;
+  padding-bottom: 5px;
+  /* border-bottom: 2px LightGrey solid; */
 
   .post-title {
     margin: 0;
@@ -25,9 +25,9 @@
   .post-meta {
     font-size: 14px;
     color: $post-meta-font-color;
-
+    Padding-top: 5px;
     .post-time {
-      font-size: 15px;
+      font-size: 14px;
     }
 
     .post-category {

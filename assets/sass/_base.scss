@@ -61,22 +61,25 @@ a {
   #{$header} {
     font-size: $size;
     font-family: $global-serif-font-family;
+
   }
 }
 
 .container {
   margin: 0 auto;
   width: $global-body-width;
+
 }
 
 @include max-screen() {
   .container {
     width: 100%;
+
   }
 }
 
 .content-wrapper {
-  padding: 3em 0 1px 0;
+  padding: 2.5em 0 1px 0;
 }
 
 // make video fluid:
@@ -97,9 +100,13 @@ a {
 }
 
 .bg-llight {
-  background-color: #f2f2f5;
+  // background-color: #f2f2f5;
+  Background-color:#fff;
 }
 
 .bg-white {
   background-color: #FFF;
+  Box-shadow:0 1px 4px rgba(0, 0, 0, 0.1);
+  Border:1px solid rgba(0, 0, 0, 0.1);
+  Border-radius:5px;
 }
